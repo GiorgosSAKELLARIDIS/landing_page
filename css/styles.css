@@ -1,6 +1,7 @@
 .page{
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 .upper, .footer {
@@ -28,12 +29,29 @@
     text-decoration: none;
     align-self: center;
 }
-
+.link2{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.link3{
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-grow: 1;
+    text-align: center;
+    padding: 20px 0px;
+}
 .logo{
     font-size: 24px;
     color: #F9FAF8;
     flex-grow: 1;
     padding: 8px;
+    font-weight: bold;
+    
+}
+
+.logo2{
+    font-size: 24px;
+    color: #F9FAF8;
     font-weight: bold;
     
 }
@@ -75,7 +93,23 @@
     padding: 6px 25px;
     font-weight: bold;
     border: none;
+    font-size: 18px;
     text-decoration: none;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: white;
+    align-self: flex-start;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 140px;
+    height: 50px;
+    padding: 6px 25px;
+    font-weight: bold;
+    border: solid;
+    border-color: #E5E7EB;
 }
 
 .pic{
@@ -86,4 +120,107 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.mid-1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    align-self: center;
+    margin: 50px;
+}
+
+.mid-2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 300px;
+}
+
+.mid-3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+
+    }
+
+.mid-4{
+        display: flex;
+        background-color: #3882F6;
+        justify-self: center;
+        border-radius: 10px;
+        margin-bottom: 100px;
+        padding: 40px 100px;
+
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+    align-items: center;
+}
+
+.box{
+    height: 180px;
+    width: 180px;
+    border: 5px;
+    border-color: #3882F6;
+    border-style: solid ;
+    border-radius: 16px;
+}
+
+.box.a{
+    max-width: 190;
+}
+
+.thor{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    min-width: 910px;
+    display: flex;
+    align-self: center;
+    justify-content: right;
+    }
+
+
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 910px;
+    align-self: center;
+    
+}
+
+.blue1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.blue2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
